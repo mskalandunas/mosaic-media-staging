@@ -1,0 +1,124 @@
+/*
+  Fonts
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Mono', ;
+  font-family: 'Noto Serif', serif;
+*/
+
+body,
+.navbar {
+  background-color: #f2f2f2;
+}
+
+.title.logo {
+  font-family: 'Comfortaa', cursive;
+}
+
+.subtitle {
+  font-size: 2.2rem;
+  color: rgb(54,69,79, .8);
+}
+
+.docs-header,
+.button,
+.navbar-item {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fa {
+  font-size: 1.5rem;
+}
+
+.fa.fa-5x {
+  font-size: 5em;
+}
+
+footer .container {
+  padding-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: 0.2s ease;
+  -ms-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+/*
+  Editor Colors
+  Yellow: #ffc600
+  Orange: #FF9D00
+  Mint: #2AFFDF
+  Blue: #193549
+  Off Blue: #0D3A58
+  Dusty Blue: #35434d
+  Dark Blue: #15232D
+  Pink: #FB94FF
+  Light Blue: #9EFFFF
+*/
+
+.snippet-container {
+  font-size: 1.4rem;
+  font-family: 'Roboto Mono';
+  background-color: #252525;
+  color: #f2f2f2;
+  white-space: nowrap;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.comment {
+  color: #0066FF;
+}
+
+.red {
+  color: #ff5050;
+}
+
+.green {
+  color: #2AFFDF;
+}
+
+.off-white {
+  color: #a2a2a2;
+}
+
+.light-blue {
+  color: #9EFFFF;
+}
+
+.button.button-primary,
+button.button-primary,
+input[type=button].button-primary,
+input[type=reset].button-primary,
+input[type=submit].button-primary {
+  color: #fff;
+  background-color: rgba(0,0,0,0.7);
+  border-color: rgba(0,0,0,0.7);
+  -webkit-transition: 0.2s ease;
+  -ms-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.navbar {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+/*
+  Font Awesome
+*/
+
+a.link {
+  display: inline-block;
+}
+
+.fa {
+  vertical-align: middle;
+  font-size: 12px;
+}
