@@ -9,7 +9,7 @@ import './css/player.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 // import Mosaic from 'mosaic-video';
-// import Mosaic from './js/components/mosaic-video';
+import Mosaic from './js/components/mosaic-video';
 
 const App = () => (
   <section>
